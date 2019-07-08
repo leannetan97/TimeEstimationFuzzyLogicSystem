@@ -6,15 +6,7 @@ This is a Clinic Time Estimation System using Fuzzy Logic Concept.
 2. Fuzzy Logic System (without using SKFuzzy Library)<br>
 </p>
 
-<h3>To install the dependencies:</h3>
-<p>
-1. Download the requirements.txt <br>
-2. Intsall using <b>pip install  --no-cache-dir -r requirements.txt</b> or <b>pip install -r requirements.txt</b>.
-</p><br>
-
-
-<h3>General Fuzzy Logic Algorithm</h3>
-<p>
+## General Fuzzy Logic Algorithm
   1. Define the linguistic variables and terms (initialization)<br>
   2. Construct the membership functions (initialization)<br>
   3. Construct the rule base (initialization)<br>
@@ -22,11 +14,19 @@ This is a Clinic Time Estimation System using Fuzzy Logic Concept.
   5. Evaluate the rules in the rule base (inference)<br>
   6. Combine the results of each rule (inference)<br>
   7. Convert the output data to non-fuzzy values (defuzzification)
-  </p><br>
-<h3> Crisp Input & Output </h3>
-<p><b>The crisp input are:</b><br>
-&nbsp1. Doctor's availability [0-10]<br>
-&nbsp2. Length of the queue [0-10]<br>
-<br>
-<b>The crisp output are:</b><br>
-&nbsp1. Time Estimation [0-30min]</p>
+
+## Crisp Input & Output
+<b>The crisp input are:</b>
+  1. Doctor's availability [0-10]
+  2. Length of the queue [0-10]
+
+<b>The crisp output are:</b>
+  1. Time Estimation [0-30min]
+
+## To install the dependencies:
+1. Download the requirements.txt
+2. Intsall using <b>pip install  --no-cache-dir -r requirements.txt</b> or <b>pip install -r requirements.txt</b>.
+
+
+
+
